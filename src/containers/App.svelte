@@ -6,8 +6,7 @@
   import Sidebar from "../components/Sidebar.svelte";
 
   let data = {};
-  const API =
-    "https://https://us-central1-pugstagram-co.cloudfunctions.net/data";
+  const API = "https://us-central1-pugstagram-co.cloudfunctions.net/data";
 
   onMount(async () => {
     const response = await fetch(API);
